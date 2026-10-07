@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools==78.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "new-ai-research"
+version = "0.1.0.dev0"
+description = "Evidence and publication tools for New AI hybrid EBM research; not a delivered language model"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = ["markdown-it-py==4.2.0", "mdurl==0.1.2"]
+
+[project.scripts]
+new-ai = "new_ai.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
