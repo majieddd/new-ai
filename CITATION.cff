@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this research software and its exact commit. This is not a peer-reviewed paper or validated language-model release."
+title: "New AI: hybrid energy-based model research"
+type: software
+version: 0.1.0-dev
+license: Apache-2.0
+repository-code: "https://github.com/majieddd/new-ai"
+url: "https://majieddd.github.io/new-ai-dashboard/"
+date-released: 2026-10-06
+authors:
+  - name: "New AI contributors"
